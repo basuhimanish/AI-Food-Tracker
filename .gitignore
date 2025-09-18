@@ -1,0 +1,10 @@
+﻿__pycache__/
+venv/
+.env
+node_modules/
+dist/
+build/
+coverage/
+alembic/**/__pycache__/
+.DS_Store
+Thumbs.db
