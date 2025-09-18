@@ -43,14 +43,7 @@ uvicorn app.main:app --reload
 API default: http://127.0.0.1:8000
 
 ## 3) Frontend setup (Vite + React)
-Two options. Both expect the API at http://localhost:8000 and FastAPI CORS is preconfigured for Vite ports 5173/5174.
-
-`frontend` (JavaScript):
-```bash
-cd frontend
-npm install
-npm run dev
-```
+Expect the API at http://localhost:8000 and FastAPI CORS is preconfigured for Vite ports 5173/5174.
 
 `frontend2` (TypeScript + Tailwind):
 ```bash
